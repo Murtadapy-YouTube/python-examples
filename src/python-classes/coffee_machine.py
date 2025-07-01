@@ -32,14 +32,11 @@ class CoffeeMachine:
 
 
 x = CoffeeMachine("Coffee Machine", "Red", "10KG", "$100")
-
 x.switch_on()
 x.making_coffee()
 x.cleaning()
 x.switch_off()
 x.get_details()
 
-
 y = CoffeeMachine("Coffee Machine V2", "Green", "3KG", "$50")
-
 y.get_details()
